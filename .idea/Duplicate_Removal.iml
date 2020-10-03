@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
     <content url="jar://$USER_HOME$/Desktop/Spark/spark-2.4.7-bin-hadoop2.7/spark-2.4.7-bin-hadoop2.7/python/lib/py4j-0.10.7-src.zip!/">
       <excludeFolder url="jar://$USER_HOME$/Desktop/Spark/spark-2.4.7-bin-hadoop2.7/spark-2.4.7-bin-hadoop2.7/python/lib/py4j-0.10.7-src.zip!/" />
     </content>
-    <content url="jar://$USER_HOME$/Desktop/Spark/spark-2.4.7-bin-hadoop2.7/spark-2.4.7-bin-hadoop2.7/python/lib/pyspark.zip!/" />
+    <content url="jar://$USER_HOME$/Desktop/Spark/spark-2.4.7-bin-hadoop2.7/spark-2.4.7-bin-hadoop2.7/python/lib/pyspark.zip!/">
+      <excludeFolder url="jar://$USER_HOME$/Desktop/Spark/spark-2.4.7-bin-hadoop2.7/spark-2.4.7-bin-hadoop2.7/python/lib/pyspark.zip!/" />
+    </content>
     <orderEntry type="jdk" jdkName="Python 2.7 (Duplicate_Removal)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

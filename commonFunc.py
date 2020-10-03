@@ -12,3 +12,4 @@ def read_schema(schema_arg):
         x= i.split(" ")
         schema.add(x[0],dict_type[x[1]],True)
     return schema
+

@@ -35,4 +35,3 @@ non_dup_id_df = cleanInputDF.filter(func.col('emp_id').isin(dup_ids) == False)
 non_dup_id_df.write.csv(nonDuplicateOutputLocation)
 
 
-

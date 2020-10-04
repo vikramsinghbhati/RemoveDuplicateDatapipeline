@@ -14,7 +14,7 @@ nonDuplicateOutputLocation=config.get('paths','nonDuplicateDataOutputLocation')
 inputSchemaFromConfig =config.get('Schema','landingFileSchema')
 landingFileSchema = read_schema(inputSchemaFromConfig)
 
-#reading landingFileSchema and rmove few null records preset in file
+#reading landingFileSchema and rmove few null records present in file
 
 inputDF=spark.read.schema(landingFileSchema).csv(inputLocation)
 cleanInputDF=inputDF.na.drop()
